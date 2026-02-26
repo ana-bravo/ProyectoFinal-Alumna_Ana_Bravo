@@ -41,6 +41,9 @@ Criterios de aceptación
 - Al cerrar sesión, el usuario debe ser redirigido a la pantalla de login.
 - No se debe poder acceder al contenido sin iniciar sesión nuevamente.
 
+
+Épica 2: Visualización y publicación de contenido
+
 HU 5: Visualizar el feed de publicaciones
 
 > Como usuario quiero poder visualizar el feed de publicaciones
@@ -50,3 +53,16 @@ Criterios de aceptación
 - Las publicaciones deben cargarse correctamente.
 - Las imágenes deben visualizarse sin errores.
 - Se debe poder hacer scroll para ver más publicaciones.
+
+HU 6: Crear una publicación (post)
+
+> Como usuario quiero poder publicar una imagen en mi perfil
+
+Criterios de aceptación
+- Debe existir un botón u opción para crear una publicación.
+- El sistema debe permitir seleccionar una imagen del dispositivo.
+- La publicación debe permitir agregar una descripción (opcional).
+- Al confirmar, la publicación debe crearse correctamente.
+- La publicación creada debe visualizarse en el perfil y/o feed.
+- Ante un error, debe mostrarse un mensaje informativo.
+
