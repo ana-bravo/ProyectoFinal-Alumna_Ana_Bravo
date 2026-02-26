@@ -22,3 +22,14 @@ Criterios de aceptación
 - Ante credenciales incorrectas, debe mostrarse un mensaje de error.
 - El acceso debe restringirse si los campos están vacíos.
 
+HU 3: Recuperar contraseña
+
+> Como usuario quiero poder recuperar mi contraseña, para volver a acceder a mi cuenta si la olvido
+
+Criterios de aceptación
+- Debe existir una opción visible de “¿Olvidaste tu contraseña?” en la pantalla de login.
+- El sistema debe permitir ingresar un correo electrónico válido.
+- Al enviar el correo, el sistema debe mostrar un mensaje de confirmación.
+- El proceso debe permitir restablecer la contraseña y volver a iniciar sesión.
+
+
