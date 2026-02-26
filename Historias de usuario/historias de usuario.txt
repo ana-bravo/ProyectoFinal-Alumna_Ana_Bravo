@@ -4,3 +4,9 @@ HU 1:  Registrarse en la aplicación
 
 > Como usuario quiero poder registrarme en Instagram Lite
 
+Criterios de aceptación:
+- Debe existir una opción para registrarse.
+- El sistema debe permitir ingresar email/usuario y contraseña.
+- Los campos obligatorios deben validarse.
+- Con datos válidos, el registro debe completarse correctamente.
+- Ante datos inválidos, se debe mostrar un mensaje de error.
