@@ -66,3 +66,16 @@ Criterios de aceptación
 - La publicación creada debe visualizarse en el perfil y/o feed.
 - Ante un error, debe mostrarse un mensaje informativo.
 
+Épica 3: Interacción social y comunicación
+
+HU 7: Buscar y seguir usuarios
+
+> Como usuario quiero poder buscar y seguir a otros usuarios, para ver su contenido en mi feed e interactuar con la comunidad.
+
+Criterios de aceptación
+- Debe existir un campo de búsqueda de usuarios
+- El sistema debe mostrar resultados según el texto ingresado
+- Se debe poder acceder al perfil de un usuario desde los resultados
+- Debe existir un botón “Seguir”
+- Al seguir a un usuario, el botón debe cambiar a “Siguiendo”
+- El sistema debe permitir dejar de seguir a un usuario previamente seguido.
