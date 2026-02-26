@@ -68,7 +68,7 @@ Alcance
 
 
 
-Jira: https://anabravo.atlassian.net/jira/software/projects/TF/boards/1
+Enlace a Jira: https://anabravo.atlassian.net/jira/software/projects/TF/boards/1
 
 
 
