@@ -1,4 +1,4 @@
-API-01	| GET |/products |Listar todos los productos | https://fakestoreapi.com/products |Código 200, body con al menos 1 producto
+API-01	| GET |/products |Listar todos los productos | https://fakestoreapi.com/products |Código 200, body con al menos 1 producto |
 
 RESULTADO
 
@@ -248,7 +248,7 @@ RESULTADO
 -----------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------
 
-API-02 | GET | /products/1 | Consultar producto existente | https://fakestoreapi.com/products/1 | Código 200 JSON con campos: id, title, price, description, category, image
+API-02 | GET | /products/1 | Consultar producto existente | https://fakestoreapi.com/products/1 | Código 200 JSON con campos: id, title, price, description, category, image |
 
 RESULTADO:
 
@@ -268,7 +268,7 @@ RESULTADO:
 -----------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------
 
-API-03 | GET |	/carts |Obtener todos los carritos |https://fakestoreapi.com/carts |Código 200, body con al menos 1 carrito
+API-03 | GET |	/carts |Obtener todos los carritos |https://fakestoreapi.com/carts |Código 200, body con al menos 1 carrito |
 
 
 RESULTADO:
@@ -392,7 +392,7 @@ RESULTADO:
 -----------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------
 
-API-04 |POST |/carts |Agregar un carrito |https://fakestoreapi.com/carts | Código 201 carrito creado exitosamente
+API-04 |POST |/carts |Agregar un carrito |https://fakestoreapi.com/carts | Código 201 carrito creado exitosamente |
 
 
 RESULTADO:
@@ -405,7 +405,7 @@ RESULTADO:
 -----------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------
 
-API-05 | POST |	/products | Agregar un producto | https://fakestoreapi.com/products | Código 201 producto creado exitosamente
+API-05 | POST |	/products | Agregar un producto | https://fakestoreapi.com/products | Código 201 producto creado exitosamente |
 
 
 RESULTADO:
@@ -418,7 +418,7 @@ RESULTADO:
 -----------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------
  
-API-06 | POST |	/users | Agregar un usuario | https://fakestoreapi.com/users |	Código 201 usuario creado exitosamente
+API-06 | POST |	/users | Agregar un usuario | https://fakestoreapi.com/users |	Código 201 usuario creado exitosamente |
 
 
 RESULTADO:
@@ -432,7 +432,8 @@ RESULTADO:
 -----------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------
 
-API-07 |PUT |/products/1 | Actualizar producto |https://fakestoreapi.com/products/1 | Código 200, producto actualizado
+API-07 |PUT |/products/1 | Actualizar producto |https://fakestoreapi.com/products/1 | Código 200, producto actualizado |
+
 
 RESULTADO:
 
@@ -445,7 +446,8 @@ RESULTADO:
 -----------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------
 
-API-08 |PUT |/carts/1 |	Actualizar carrito |https://fakestoreapi.com/carts/1 |	Código 200, carrito actualizado
+API-08 |PUT |/carts/1 |	Actualizar carrito |https://fakestoreapi.com/carts/1 |	Código 200, carrito actualizado |
+
 
 RESULTADO:
 
@@ -457,7 +459,8 @@ RESULTADO:
 -----------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------
 
-API-09 |PUT |/users/1 |	Actualizar usuario |https://fakestoreapi.com/users/1 |Código 200, usuario actualizado
+API-09 |PUT |/users/1 |	Actualizar usuario |https://fakestoreapi.com/users/1 |Código 200, usuario actualizado |
+
 
 RESULTADO:
 
@@ -467,14 +470,28 @@ RESULTADO:
 -----------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------
 
+API-10 |POST |/carts/9999 |Agregar un carrito |	https://fakestoreapi.com/carts/9999 |Código 404, no encontrado |
 
 
 RESULTADO:
 
 
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <title>Error</title>
+</head>
 
+<body>
+    <pre>Cannot POST /carts/9999</pre>
+    <script>
+        (function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d40d29a2c6bdea3',t:'MTc3MjEyMzM4MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();
+    </script>
+</body>
 
+</html>
 
 
 -----------------------------------------------------------------------------------
