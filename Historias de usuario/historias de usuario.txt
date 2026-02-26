@@ -32,4 +32,12 @@ Criterios de aceptación
 - Al enviar el correo, el sistema debe mostrar un mensaje de confirmación.
 - El proceso debe permitir restablecer la contraseña y volver a iniciar sesión.
 
+HU 4: Cerrar sesión (Logout)
+
+> Como usuario quiero poder cerrar sesión de mi cuenta 
+
+Criterios de aceptación
+- Debe existir una opción visible para cerrar sesión.
+- Al cerrar sesión, el usuario debe ser redirigido a la pantalla de login.
+- No se debe poder acceder al contenido sin iniciar sesión nuevamente.
 
