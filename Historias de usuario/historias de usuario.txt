@@ -1,0 +1,6 @@
+Épica 1: Acceso y gestión de cuenta de usuario
+
+HU 1:  Registrarse en la aplicación
+
+> Como usuario quiero poder registrarme en Instagram Lite
+
