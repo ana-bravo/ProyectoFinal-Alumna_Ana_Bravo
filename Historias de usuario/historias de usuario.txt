@@ -79,3 +79,14 @@ Criterios de aceptación
 - Debe existir un botón “Seguir”
 - Al seguir a un usuario, el botón debe cambiar a “Siguiendo”
 - El sistema debe permitir dejar de seguir a un usuario previamente seguido.
+
+HU 8: Enviar mensajes directos (DM)
+
+> Como usuario quiero poder enviar mensajes directos a otros usuarios, para comunicarme de forma privada.
+
+Criterios de aceptación
+- Debe existir una opción para acceder a los mensajes directos.
+- Se debe poder seleccionar un usuario para iniciar una conversación.
+- El sistema debe permitir enviar mensajes de texto.
+- El mensaje enviado debe mostrarse en la conversación.
+- El sistema no debe permitir enviar mensajes vacíos.
