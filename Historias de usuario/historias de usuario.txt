@@ -10,3 +10,15 @@ Criterios de aceptación:
 - Los campos obligatorios deben validarse.
 - Con datos válidos, el registro debe completarse correctamente.
 - Ante datos inválidos, se debe mostrar un mensaje de error.
+
+HU 2: Iniciar sesión
+
+> Como usuario quiero poder iniciar sesión en mi cuenta
+
+Criterios de aceptación
+- Deben existir campos para usuario/email y contraseña.
+- El sistema debe permitir ingresar credenciales válidas.
+- Al iniciar sesión correctamente, se debe mostrar el feed principal.
+- Ante credenciales incorrectas, debe mostrarse un mensaje de error.
+- El acceso debe restringirse si los campos están vacíos.
+
