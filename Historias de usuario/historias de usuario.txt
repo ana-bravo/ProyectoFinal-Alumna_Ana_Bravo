@@ -41,3 +41,12 @@ Criterios de aceptación
 - Al cerrar sesión, el usuario debe ser redirigido a la pantalla de login.
 - No se debe poder acceder al contenido sin iniciar sesión nuevamente.
 
+HU 5: Visualizar el feed de publicaciones
+
+> Como usuario quiero poder visualizar el feed de publicaciones
+
+Criterios de aceptación
+- Al ingresar a la aplicación, debe mostrarse el feed.
+- Las publicaciones deben cargarse correctamente.
+- Las imágenes deben visualizarse sin errores.
+- Se debe poder hacer scroll para ver más publicaciones.
